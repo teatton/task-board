@@ -9,6 +9,7 @@
 - 主なファイル: `src/App.jsx`（UI・状態管理）、`src/App.css`（スタイル）、`src/main.jsx`（エントリ）
 - コマンド: `npm install` / `npm run dev`（開発サーバー）/ `npm run build`（ビルド）
 - 機能: タスク追加、完了切替（完了済みはグレー表示）、削除
+- 公開: GitHub Pages（https://teatton.github.io/task-board/）。`main` へのプッシュで `.github/workflows/deploy.yml` が自動デプロイする。`vite.config.js` の `base` はリポジトリ名に合わせてある
 - 永続化: タスクは localStorage（キー `task-board:tasks`）に保存
 
 ## 開発ルール
